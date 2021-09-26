@@ -1,0 +1,67 @@
+.sub-nav-box {
+    background: #fff;
+    border-radius: 90px;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    font-size: 14px;
+    justify-content: center;
+    margin: 4px 0;
+    min-height: 50px;
+    padding: 24px 14px 24px 70px;
+    position: relative;
+    transition: 0.2s all ease-in-out;
+    text-decoration: none;
+}
+
+.sub-nav::after {
+    bottom: 100%;
+    left: -10%;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border: solid transparent;
+    border-color: rgba(252, 252, 252, 0);
+    border-bottom-color: #f7f7f7;
+    border-width: 20px;
+    border-radius: 2px;
+    margin-left: 50%;
+}
+
+
+
+.icon-background {
+    height: 40px;
+    width: 40px;
+    background: #252222;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 14px;
+}
+
+.icon {
+    color: #fff;
+    font-size: 20px;
+}
+
+.navimages {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.sub-nav-box h4 {
+    font-size: 12px;
+    letter-spacing: 0.9px;
+    line-height: 16px;
+    margin: 0 0 0.5em;
+    padding: 0;
+    font-weight: 600;
+    color: #292d34;
+    text-transform: uppercase;
+}

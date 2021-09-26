@@ -1,0 +1,258 @@
+.care_to_section {
+    max-height: 525px;
+  }
+  
+  .wrapper {
+    position: relative;
+  }
+  
+  .fixed-wrapper {
+    position: absolute;
+  }
+  
+  .work_With_us {
+    position: fixed;
+  }
+  
+  .care_to_section .row {
+    background: #6ca0bc;
+    margin-top: 5%;
+    margin-bottom: -0.3%;
+  }
+  
+  /* .care_to_section .row-1 {
+    position: relative;
+  } */
+  
+  .care_to_section .dotted-img {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 990px;
+    width: 398.86px;
+    height: 400px;
+  }
+  .care_to_section .main-img {
+    position: absolute;
+    margin-left: 1010px;
+    margin-top: 140px;
+    transform: rotate(45deg);
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+  }
+  .care_to_section .main-img img {
+    margin-top: -60px;
+    margin-left: -60px;
+    transform: rotate(-45deg);
+    transition: all ease 0.8s;
+  }
+  .care_to_section .main-img:hover img {
+    transform: scale(1.03) rotate(-45deg);
+  }
+  
+  .care_to_section .left-img {
+    position: absolute;
+    width: 211.24px;
+    height: 200px;
+    margin-top: 63px;
+  }
+  
+  .care_to_section .left-top-img {
+    /* position: absolute; */
+    margin-top: 0px;
+    margin-left: 200%;
+  }
+  
+  .care_to_section .left-top-h2 {
+    /* position: absolute; */
+    width: 80px;
+    height: 22px;
+    left: 390px;
+    margin-left: 455%;
+    margin-top: 30%;
+    top: 22px;
+    /* margin-bottom: 20px; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    color: #4e86a4;
+  }
+  
+  .care_to_section .right-top-img {
+    /* position: absolute; */
+    margin-top: 58px;
+    margin-left: 383%;
+  }
+  
+  .care_to_section .right-top-h2 {
+    /* position: absolute; */
+    width: 80px;
+    height: 22px;
+    left: 706px;
+    top: 120px;
+    margin-left: 825%;
+    margin-top: 145%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    color: #4e86a4;
+  }
+  
+  .care_to_section .bottom-img {
+    position: absolute;
+    margin-left: 710px;
+    margin-top: 300px;
+  }
+  
+  .care_to_section .bottom-img-over {
+    /* position: absolute; */
+    width: 30.75px;
+    height: 23px;
+    margin-left: 2385%;
+    margin-top: 1032%;
+  }
+  
+  .care_to_section .main-right-img {
+    position: absolute;
+    margin-left: 1336px;
+    margin-top: 50px;
+  }
+  
+  /* .care-to_content {
+    margin-top: -441px !important;
+    margin-left: -100px;
+  } */
+  .care_to_section .care_to_join_h3 {
+    font-size: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 40px;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+    margin-left: -30px;
+    margin-top: 65px;
+  }
+  
+  .care_to_section .care_to_join_h5 {
+    position: absolute;
+    font-size: 14px;
+    margin-top: 7px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    margin-bottom: -5px;
+    color: #ffffff;
+    width: 436px;
+    height: 66px;
+    line-height: 22px;
+    margin-left: -29.9px;
+  }
+  .care_to_section .care_to_join_h5-1 {
+    position: absolute;
+    width: 269px;
+    height: 22px;
+    margin-left: -30px;
+    margin-top: 85px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 136% */
+    color: #ffffff;
+  }
+  
+  .care_to_section .care_to_join_p {
+    position: absolute;
+    width: 436px;
+    height: 60px;
+    margin-left: -30px;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #ffffff;
+  }
+  
+  .care_to_section .care_to_join_button-apply {
+    background: linear-gradient(95.12deg, #e5cd60 0%, #33657e 83.42%), #e5cc5c;
+    margin-left: -30px;
+    color: white;
+    border: none;
+    width: 125px;
+    height: 42px;
+    margin-top: 130px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+  }
+  
+  .care_to_section .care_to_join_button-apply:hover {
+    transform: translate3d(0, -8px, -8px);
+    box-shadow: 0px 12px 20px rgba(10, 17, 21, 0.1);
+    transition: ease-in 0.6s;
+  }
+  
+  #care-email-foot {
+    position: absolute;
+    width: 296px;
+    height: 42px;
+    margin-top: 7.5rem;
+    margin-bottom: 0.8rem;
+    outline: none;
+    border: 1px solid #fff;
+    margin-left: -30px;
+    /* left: 399px;
+    top: 4587px; */
+    background: #fbfeff;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+  }
+  #care-email-foot::placeholder {
+    position: absolute;
+    width: 103px;
+    height: 16px;
+    left: 10px;
+    top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #6ca0bc;
+  }
+  #care-email-text {
+    font-size: 0.8rem;
+  }
+  
+  .care_to_section .care_to_join_button-subscribe {
+    position: absolute;
+    background: #4e86a4;
+    margin-left: 266px;
+    color: white;
+    border: none;
+    width: 131px;
+    height: 42px;
+    border: 1px solid #4e86a4;
+    box-sizing: border-box;
+    margin-top: 6rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
