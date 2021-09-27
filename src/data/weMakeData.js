@@ -4,7 +4,8 @@ export const aboutWeMakeData = {
     rightImg: "/img/wemake/community-support-1.png",
     leftp1: "Corporate Social Responsibility",
     leftp2: "As part of our CSR activities, Corporality Global is currently laying a road map in the geospatial technology area to work closely with authorities across geographical mapping and analysis.",
-    leftImg: "/img/wemake/corporate-social-responsibility-1.png"
+    leftImg: "/img/wemake/corporate-social-responsibility-1.png",
+    extra: false
 };
 
 export const workClientWeMakeData = {
@@ -13,5 +14,6 @@ export const workClientWeMakeData = {
     rightImg: "/img/wemake/Polygon 5.png",
     leftp1: "Stepping into the Global Market",
     leftp2: "Corporality Global has already taken baby steps to enter the North American market as we aim to grow.",
-    leftImg: "/img/wemake/Polygon 5 (1).png"
+    leftImg: "/img/wemake/Polygon 5 (1).png",
+    extra: true
 };

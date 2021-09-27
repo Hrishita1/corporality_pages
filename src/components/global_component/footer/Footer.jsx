@@ -1,4 +1,4 @@
-import React from 'react'
+import "./footer.css";
 
 export default function Footer() {
     const PU = process.env.PUBLIC_URL;

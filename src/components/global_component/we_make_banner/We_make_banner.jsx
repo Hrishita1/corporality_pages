@@ -73,7 +73,7 @@ export default function WeMakeBanner({ data }) {
                             : (
                                 <div className="we-make-banner-rect4"  data-aos="zoom-in" data-aos-duration="2000" >
                                     <img width="200px" src={PU + "/img/wemake-Banner/Rectangle 4.png"} alt=""/>
-                                    <a href="#" style={{fontSize: "15px"}}>Our Services</a>
+                                    <a href="#" style={{fontSize: "15px", textDecoration: "none"}}>Our Services</a>
                                 </div>
                             )
                         }

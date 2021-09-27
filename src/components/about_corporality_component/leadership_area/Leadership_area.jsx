@@ -41,7 +41,7 @@ export default function Leadership_area() {
             
                     <div data-aos="fade-right" data-aos-duration="2000">
                         <div className="leadership_button" >
-                            <a href="#">View All Team</a>
+                            <a href="#" style={{textDecoration: "none"}}>View All Team</a>
                         </div>
                     </div>
                 </div>

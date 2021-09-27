@@ -13,7 +13,7 @@ export default function FeatureArea() {
                     <div className="row">
                         <div className="col-">
                             <div className="single-feature d-flex aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000">
-                                <div className="feature-icon">
+                                <div className="feature-icon" style={{position: "relative"}}>
                                     <img src={PU + "/img/Ideation/Ellipse 6.png"} className="ptone" alt=""/>
                                     <img src={PU + "/img/Ideation/favicon TM 3.png"} className="TM" alt=""/>
                                 </div>
@@ -29,7 +29,7 @@ export default function FeatureArea() {
                         </div>
                         <div className="col-">
                             <div className="single-feature d-flex aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000">
-                                <div className="feature-icon">
+                                <div className="feature-icon" style={{position: "relative"}}>
                                     <img src={PU + "/img/Ideation/Ellipse 6.png"} className="pttwo" alt=""/>
                                     <img src={PU + "/img/Ideation/favicon TM 4.png"} className="TM2" alt=""/>
                                 </div>
@@ -44,7 +44,7 @@ export default function FeatureArea() {
                         </div>
                         <div className="col-">
                             <div className="single-feature d-flex aos-init" data-aos="fade-up" data-aos-duration="2000">
-                                <div className="feature-icon">
+                                <div className="feature-icon" style={{position: "relative"}}>
                                     <img src={PU + "/img/Ideation/Ellipse 6.png"} className="ptthree" alt=""/>
                                     <img src={PU + "/img/Ideation/favicon TM 2.png"} className="TM3" alt=""/>
                                 </div>

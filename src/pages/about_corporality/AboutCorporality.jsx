@@ -26,7 +26,7 @@ export default function AboutCorporality() {
     }, []);
 
     return (
-        <div>
+        <>
             <Navbar />
             <HomeBanner data={AboutUsHomeBannerData}/>
             <AboutArea />
@@ -36,6 +36,6 @@ export default function AboutCorporality() {
             <LeadershipArea />
             <JoinArea />
             <Footer />
-        </div>
+        </>
     )
 }
