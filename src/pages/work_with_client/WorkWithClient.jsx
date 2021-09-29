@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import { WorkWithClientHomeBannerData } from "../../data/homeBanner";
 import { workClientWeMakeBannerData } from "../../data/weMakeBannerData";
 import { workClientWeMakeData } from "../../data/weMakeData";
+import { workClientIdeatingData } from "../../data/ideatingData";
 
 import HomeBanner from '../../components/global_component/home_banner/Home_banner';
 import Navbar from "../../components/global_component/navbar/Navbar";
@@ -30,7 +31,7 @@ export default function WorkWithClient() {
             <Navbar />
             <HomeBanner data={WorkWithClientHomeBannerData}/>
             <CorporalityVideo />
-            <CombinatingIdeating />
+            <CombinatingIdeating data={workClientIdeatingData}/>
             <CreativityInnovation />
             <WeMakeBanner data={workClientWeMakeBannerData}/>
             <OurPowerful />

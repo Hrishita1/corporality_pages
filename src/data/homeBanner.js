@@ -23,3 +23,16 @@ export const WorkWithClientHomeBannerData = {
     p: "We are one of the most powerful sources of business growth and progress. We help our customers unfold their dreams to reality.",
     style: false
 }
+
+export const growthHomeBannerData = {
+    img1: "/img/banner/banner-2.png",
+    img2: "/img/banner/banner-4.png",
+    img3: "/img/banner/banner-3.png",
+    img4: "/img/banner/banner-6.png",
+    img5: "/img/banner/banner-5.png",
+    img6: "/img/banner/sustainable_growth_homeBanner.png",
+    h3: null,
+    h5: "SUSTAINABLE GROWTH OUR ORGANISING PRINCIPLE",
+    p: "Corporality Global intends to use ingenuity and technology to enforce sustainable change so that future generations can meet their needs without any hindrances",
+    style: false
+}

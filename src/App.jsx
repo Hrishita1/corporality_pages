@@ -5,6 +5,7 @@ import {
   } from "react-router-dom";
   
 import AboutCorporality from "./pages/about_corporality/AboutCorporality";
+import SustainableGrowth from "./pages/sustainable_growth/SustainableGrowth";
 import WorkWithClient from './pages/work_with_client/WorkWithClient';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                         <h3>Greetings..</h3>
                         <h5>Click <a href="/about-corporality">Here</a> for about corporality page</h5>
                         <h5>Click <a href="/work-with-client">Here</a> for work with client page</h5>
+                        <h5>Click <a href="/sustainable-growth">Here</a> for sustainable growth page</h5>
                     </div>
                 </Route>
                 <Route path="/about-corporality">
@@ -24,6 +26,9 @@ function App() {
                 </Route>
                 <Route path="/work-with-client">
                     <WorkWithClient />
+                </Route>
+                <Route to="/sustainable-growth">
+                    <SustainableGrowth />
                 </Route>
             </Switch>
         </Router>

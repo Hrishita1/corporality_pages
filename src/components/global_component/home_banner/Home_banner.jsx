@@ -60,7 +60,7 @@ export default function HomeBanner({ data }) {
                         <div className="row">
                             <div className="col-lg-6 offset-lg-6 col-xl-5 offset-xl-7">
                                 <div className="banner_content">
-                                    <h3 style={h3Style}>{data.h3}</h3>
+                                    {(data.h3) && (<h3 style={h3Style}>{data.h3}</h3>)}
                                     <h5 style={h5Style}>{data.h5}</h5>
                                     <p style={pStyle}>{data.p}</p>
                                 </div>

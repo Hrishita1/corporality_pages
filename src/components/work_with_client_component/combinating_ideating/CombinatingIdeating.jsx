@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import IdeatingWrapper from '../../global_component/ideating_wrapper/IdeatingWrapper';
 
-export default function CombinatingIdeating() {
+
+
+export default function CombinatingIdeating({ data }) {
     const PU = process.env.PUBLIC_URL;
 
     return (
         <>
-            <div className="ccwt">
+            {(data.heading) && (<div className="ccwt">
                 <div data-aos="fade-right" data-aos-easing="ease" data-aos-duration="2500">
                     <div className="ccwt_img">
                         <div className="ccwt_icon">
@@ -46,30 +49,33 @@ export default function CombinatingIdeating() {
 
                     </div>
                 </div>
-            </div>
+            </div>)}
 
             <div className="iwfc">
                 <div className="iwfc_left" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <img src={PU + "/img/combinating_and_ideation/Vector.png"} alt="" className="iwfc_vector"/>
+                    <img src={PU + data.img1} alt="" className="iwfc_vector"/>
                     <div className="iwfc_img">
-                        <img src={PU + "/img/combinating_and_ideation/Corporality -fearless creativity (1).png"} alt=""/>
+                        <img src={PU + data.img2} alt=""/>
                     </div>
                     <div className="iwfc_img4_bg">
-                        <img src={PU + "/img/combinating_and_ideation/Corporality -fearless creativity bkg2.png"} alt=""/>
+                        <img src={PU + data.img3} alt=""/>
                     </div>
-                    <img src={PU + "/img/combinating_and_ideation/Rectangle 8 (1).png"} alt="" className="iwfc_img1"/>
-                    <img src={PU + "/img/combinating_and_ideation/Rectangle 7 (1).png"} alt="" className="iwfc_img2"/>
+                    <img src={PU + data.img4} alt="" className="iwfc_img1"/>
+                    <img src={PU + data.img5} alt="" className="iwfc_img2"/>
                 </div>
 
                 <div className="iwfc_right">
-                    <div data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    {(data.heading) && (<div data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className="iwfc_header">
                             <h1>Ideation with fearless creativity</h1>
                         </div>
-                    </div>
+                    </div>)}
                      <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className="iwfc_text_wrapper1">
-                            <div className="iwfc_text_wrapper2">
+                            {data.wrapper.map( d => (
+                                <IdeatingWrapper key={d.id} data={d}/>
+                            ))}
+                            {/* <div className="iwfc_text_wrapper2">
                                 <div className="iwfc_icon">
                                     <img src={PU + "/img/combinating_and_ideation/favicon TM 3.png"} alt=""/>
                                 </div>
@@ -123,7 +129,7 @@ export default function CombinatingIdeating() {
 
                                 </div>
                             </div>
-                            <div className="iwfc_text_wrapper2">
+                            <div className="iwfc_text_wrapper2"> 
                                 <div className="iwfc_icon">
                                     <img src={PU + "/img/combinating_and_ideation/favicon TM 2.png"} alt=""/>
                                 </div>
@@ -147,7 +153,7 @@ export default function CombinatingIdeating() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
